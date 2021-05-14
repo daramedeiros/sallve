@@ -13,15 +13,15 @@ Este projeto foi desenvolvido com a seguinte pilha de tecnologias:
 Lembrar de acessar cd store antes de tentar executar o projeto**
 
 - No diretório do projeto, você pode executar:
-`$ yarn install` ou $ `npm install`
+`$ yarn install` ou `$ npm install`
 
 - No diretório do projeto, você pode executar:
-$ `yarn start` ou $ `npm start`
+`$ yarn start` ou `$ npm start`
 
 - Abra http://localhost:3000 para visualizá-lo no navegador.
 
 ## Para rodar os testes de renderizacão de componentes:
-$ yarn test` ou $ `npm test`
+`$ yarn test` ou `$ npm test`
 
 ## Link da aplicacao
 https://daramedeiros.github.io/sallve/
