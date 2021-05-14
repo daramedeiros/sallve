@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Add Button Component basic functionality should render with default styles 1`] = `
+<div>
+  <div
+    class="sc-bdnxRM fbSxoN"
+  >
+    <img
+      alt="Icone de Sacola de compras"
+      src="carry-bag.png"
+    />
+    <p>
+      Ops! sua sacola ainda está vazia. vem cá descobrir nossas fórmulas e escolher a sua!
+    </p>
+  </div>
+</div>
+`;
