@@ -1,4 +1,5 @@
 {
+  "homepage": "https://daramedeirosgithub.io/sallve",
   "name": "store",
   "version": "0.1.0",
   "private": true,
@@ -9,19 +10,19 @@
     "axios": "^0.21.1",
     "editorconfig": "^0.15.3",
     "eslint": "^7.26.0",
+    "gh-pages": "^3.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "styled-components": "^5.3.0",
     "web-vitals": "^1.0.1"
   },
-  "homepage": "https://daramedeirosgithub.io/sallve",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
