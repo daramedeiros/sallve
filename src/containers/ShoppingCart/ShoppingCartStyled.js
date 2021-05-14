@@ -7,7 +7,6 @@ export const ShoppingContainer = styled.div`
 
 export const ProductList = styled.section`
     display:flex;
-    width: 100%;
     justify-content: flex-start;
 `;
 
@@ -15,7 +14,7 @@ export const Card = styled.div`
     display: flex;
     flex-wrap: wrap;
     text-align: left;
-    width: 100%;
+    width: 75%;
     justify-content: flex-start;
     margin-left: 20px;
     border-right: 1px solid grey;
@@ -64,7 +63,7 @@ export const Cart = styled.div`
     justify-content: flex-end;
     align-content: left;
     height: 100%;
-    width: 40%;
+    width: 25%;
     padding: 40px;
 `;
 
@@ -116,13 +115,16 @@ export const NameAndDelete = styled.section`
       NameAndDelete {
       margin-top: 10px;
     }
-
 `;
 
 export const TextCart = styled.h2`
-    margin-top: 1%;
-    margin-right: 10px;
-    margin-bottom: 1%;
+      font-size: 16px;
+      padding: 5px;
+`;
+
+export const TitleCart = styled.h2`
+      font-size: 22px;
+      padding-bottom: 15px;
 `;
 
 export const CartPrice = styled.h2`
@@ -137,7 +139,7 @@ export const Buttons = styled.div`
 `;
 
 export const TextTotalCart = styled.h3`
-      font-size: 12pt;
+      font-size: 18px;
       margin-top: none;
 `;
 
