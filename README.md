@@ -12,9 +12,6 @@ Este projeto foi desenvolvido com a seguinte pilha de tecnologias:
 
 Lembrar de acessar cd store antes de tentar executar o projeto**
 
-## Para execultar aplicação localmente:
-Lembrar de acessar `cd store` antes de tentar executar o projeto**
-
 - No diretório do projeto, você pode executar:
 `$ yarn install` ou $ `npm install`
 
@@ -26,4 +23,4 @@ $ `yarn start` ou $ `npm start`
 ## Para rodar os testes de renderizacão de componentes:
 $ yarn test` ou $ `npm test`
 
-## Link da aplicacao 
+## Link da aplicacao
