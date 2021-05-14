@@ -26,6 +26,7 @@ import {
   TextCard,
   TextCart,
   TextTotalCart,
+  TitleCart,
 } from './ShoppingCartStyled';
 
 function ShoppingCart() {
@@ -123,7 +124,7 @@ const deletProduct = (item) => {
           <CartContainer>
             {addToCart ?
               <div>
-                <TextCart>Sua sacola </TextCart>
+                <TitleCart>Sua sacola </TitleCart>
                 {productSelect.map((product, index)=>{
                   return(
                     <CartProduct key={index}>
@@ -139,17 +140,17 @@ const deletProduct = (item) => {
                             />
                           </NameAndDelete>
                           <Buttons>
+                          <RemoveButton
+                              handleClick={(e) => {
+                                  e.preventDefault()
+                                  decreaseItem(product)
+                              }}
+                            />
+                            <TextCart>{product.add}</TextCart>
                             <AddButton
                               handleClick={(e) => {
                                   e.preventDefault()
                                   increaseItem(product)
-                              }}
-                            />
-                            <TextCart>{product.add}</TextCart>
-                            <RemoveButton
-                              handleClick={(e) => {
-                                  e.preventDefault()
-                                  decreaseItem(product)
                               }}
                             />
                           </Buttons>

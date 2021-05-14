@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const BuyButtonComponent = styled.button`
-    background: #333333;
+    background: #9f77ff;
     border-radius: 5px;
     border: none;
     color:#ffffff;
@@ -14,7 +14,7 @@ export const BuyButtonComponent = styled.button`
     width: 217px;
 
     :hover {
-        background: #9f77ff;
+        background: #ccec3a;
         color: #ffffff;
     }
 

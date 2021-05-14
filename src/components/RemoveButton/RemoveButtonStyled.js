@@ -9,7 +9,6 @@ export const RemoveButtonComponent = styled.button`
     font-size: 20px;
     font-weight: bold;
     height: 25px;
-    margin-right: 10px;
     width: 25px;
 
      :hover {

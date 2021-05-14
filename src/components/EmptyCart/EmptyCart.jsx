@@ -6,7 +6,7 @@ import { EmptyCartComponent } from './EmptyCartStyled';
 const EmptyCart = () => (
   <EmptyCartComponent>
     <img alt="Icone de Sacola de compras" src={CarryBag} />
-    <p>Ops! sua sacola ainda está vazia. vem cá descobrir nossas fórmulas e escolher a sua!</p>
+    <h3>Ops! sua sacola ainda está vazia. vem cá descobrir nossas fórmulas e escolher a sua!</h3>
   </EmptyCartComponent>
 )
 

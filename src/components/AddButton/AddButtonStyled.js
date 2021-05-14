@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const AddButtonComponent = styled.button`
     align-content:flex;
-    background: #9f77ff;
+    background-color: #9f77ff;
     border: none;
     color:#ffffff;
     cursor: pointer;
