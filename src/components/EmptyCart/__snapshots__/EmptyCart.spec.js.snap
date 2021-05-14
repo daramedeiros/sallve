@@ -9,9 +9,9 @@ exports[`Add Button Component basic functionality should render with default sty
       alt="Icone de Sacola de compras"
       src="carry-bag.png"
     />
-    <p>
+    <h3>
       Ops! sua sacola ainda está vazia. vem cá descobrir nossas fórmulas e escolher a sua!
-    </p>
+    </h3>
   </div>
 </div>
 `;

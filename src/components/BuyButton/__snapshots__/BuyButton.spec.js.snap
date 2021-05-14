@@ -3,7 +3,7 @@
 exports[`Add Button Component basic functionality should render with default styles 1`] = `
 <div>
   <button
-    class="sc-bdnxRM kYEMFU"
+    class="sc-bdnxRM dmgYyU"
   >
     Comprar
   </button>
